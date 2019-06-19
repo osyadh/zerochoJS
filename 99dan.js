@@ -14,7 +14,7 @@ const button = document.createElement("button");
 button.textContent = "input";
 form.append(button);
 const result = document.createElement("div");
-document.body.append(result);
+body.append(result);
 
 form.addEventListener("submit", function(event) {
   event.preventDefault();

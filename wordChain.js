@@ -1,16 +1,16 @@
 const body = document.body;
 const word = document.createElement("div");
 word.textContent = "zerocho";
-document.body.append(word);
+body.append(word);
 const form = document.createElement("form");
-document.body.append(form);
+body.append(form);
 const input = document.createElement("input");
 form.append(input);
 const button = document.createElement("button");
 button.textContent = "input";
 form.append(button);
 const result = document.createElement("div");
-document.body.append(result);
+body.append(result);
 
 form.addEventListener("submit", function(event) {
   event.preventDefault();
